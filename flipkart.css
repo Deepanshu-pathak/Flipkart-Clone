@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 4rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.258);
+}
+header img{
+    width: 8rem;
+}
+header input{
+    width: 45%;
+    height: 2.3rem;
+    border-radius: 5px;
+    font-size:20px;
+    padding-left: 10px;
+    background-color: #bcc0ff5f;
+    border: none;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.box1 img{
+    width: 1.5rem;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.box2 img{
+    width: 1.5rem;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.box3 img{
+    width: 1.5rem;
+}
+.box4 img{
+    width: 0.3rem;
+}
+.store{
+    display: flex;
+    margin: 2rem;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+}
+.store img{
+    width: 4rem;
+    height: 4rem;
+}
+.h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.hero img{
+    width: 100%;
+}
+.maal{
+    margin: 2rem;
+    font-size: x-large;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.400);
+}
+.e{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content:left;
+    gap: 3.5%;
+}
+.e img{
+    width: 10rem;
+    height: 10rem;
+}
+.e1{
+    border: 1px solid rgba(121, 121, 121, 0.423);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: medium;
+    text-align: center;
+    font-weight: 100;
+}
+.three{
+    display: flex;
+    gap: 1%;
+    border-bottom:1px solid rgba(128, 128, 128, 0.400) ;
+}
+.maal2{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    font-size: x-large;
+    font-weight: 700;
+    border: 1px solid rgba(128, 128, 128, 0.400);
+    border-radius: 10px;
+}
+.maal2 img{
+    width: 10rem;
+    height: 10rem;
+}
+.k2{
+    display: flex;
+    gap: 3.5rem;
+}
+.k1{
+    font-weight: 100;
+    font-size: medium;
+    text-align: center;
+}
+footer{
+    display: flex;
+    background-color: #151515f1;
+    color: white;
+    padding: 3rem;
+    font-size: small;
+    font-weight: 600;
+    border-bottom:1px solid rgba(128, 128, 128, 0.400) ;
+}
+footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.part1{
+    display: flex; 
+}
+.part2{
+    display: flex;
+    gap: 2rem;
+    border-left: 1px solid rgba(128, 128, 128, 0.400) ;
+    padding-left: 2rem;
+}
+.part{
+    width:13rem;
+}
+.bold{
+    font-weight: 700;
+    color: gray;
+    padding-bottom: 1rem;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-size: small;
+    height: 4rem;
+    background-color: #151515f1;
+    color: white;
+}
